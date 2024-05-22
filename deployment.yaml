@@ -18,7 +18,7 @@ spec:
         app: cicd-demo
     spec:
       containers:
-        - image: 211711023937.dkr.ecr.us-east-2.amazonaws.com/demo-cesarschool:latest
+        - image: 211711023937.dkr.ecr.us-east-2.amazonaws.com/tmo-mclcecr:latest
           imagePullPolicy: Always
           name: tmo_mclc-cicdcontainer
           ports:
