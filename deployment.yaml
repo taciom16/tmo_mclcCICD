@@ -20,6 +20,6 @@ spec:
       containers:
         - image: 211711023937.dkr.ecr.us-east-2.amazonaws.com/tmo-mclcecr:latest
           imagePullPolicy: Always
-          name: tmo_mclc-cicdcontainer
+          name: tmo-mclc-cicdcontainer
           ports:
             - containerPort: 3000
